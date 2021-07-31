@@ -6,7 +6,7 @@ function FullWidthImage(props) {
         <div className="full_width_wrapper">
             <img
                 src={props.image}
-            />
+             alt=""/>
         </div>
     )
 }

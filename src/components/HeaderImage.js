@@ -7,7 +7,7 @@ function HeaderImage() {
         <div className="header-wrapper">
             <img
                 src={headerImage}
-            />
+             alt=""/>
         </div>
     )
 }
