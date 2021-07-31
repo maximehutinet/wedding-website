@@ -1,0 +1,25 @@
+@import "variables.scss";
+
+@mixin full_page_content($backgroudColor) {
+  margin: 0 -3rem;
+  padding: 2.5rem 3rem;
+  background-color: $backgroudColor;
+}
+
+@mixin full_page() {
+  margin: 0 -3rem;
+}
+
+@mixin from_md(){
+  @media (min-width: $md) {
+    @content;
+  }
+}
+
+@mixin from_lg(){
+  @media (min-width: $lg) {
+    @content;
+  }
+}
+
+

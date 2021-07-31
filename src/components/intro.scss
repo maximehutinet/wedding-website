@@ -1,0 +1,77 @@
+@import "../_mixin.scss";
+@import "../_variables.scss";
+@import "../_fonts.scss";
+
+.intro-wrapper {
+    text-align: center;
+    @include full_page_content($light_gray);
+
+    .names {
+        padding-bottom: 1rem;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+
+        span {
+            font-size: $size_large;
+            font-family: $font_quicksand;
+            font-weight: $font_quicksand_bold;
+            color: $brown;
+
+            @include from_md(){
+                font-size: $size_xlarge;
+            }
+        }
+
+        span:nth-child(2) {
+            font-size: $size_medium;
+        }
+    }
+
+    .finally-married {
+        font-size: $size_large;
+        font-family: $font_parisienne;
+        color: $brown;
+
+        @include from_md(){
+            font-size: $size_xlarge;
+        }
+    }
+
+    .img-wrapper {
+        position: relative;
+        margin: 2rem 0;
+        span {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-family: $font_festive;
+            color: $light_brown;
+            font-size: 25vw;
+
+            @include from_md(){
+                font-size: 15vw;
+            }
+        }
+
+        img {
+            width: 100%;
+
+            @include from_md(){
+                width: 50%;
+            }
+        }
+    }
+
+    .dates-location {
+        text-transform: uppercase;
+        color: $brown;
+
+        @include from_md(){
+            font-size: $size-medium;
+        }
+    }
+
+
+}

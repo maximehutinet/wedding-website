@@ -1,0 +1,65 @@
+@import "../_mixin.scss";
+@import "../_variables.scss";
+@import "../_fonts.scss";
+
+.intro-tmb-wrapper {
+    text-align: center;
+    position: relative;
+    height: 500px;
+    overflow: hidden;
+    @include full_page_content($light_blue);
+
+    @include from_md(){
+        height: 95vh;
+        padding: 2.5rem 10rem;
+    }
+
+    h1 {
+        font-size: $size_large;
+        font-family: $font_rozha_one;
+        color: $dark_brown;
+        margin-top: 0;
+        text-align: right;
+
+        @include from_md(){
+            font-size: $size_xlarge;
+        }
+    }
+
+    h2 {
+        text-align: right;
+        font-family: $font_parisienne;
+        color: $dark_brown;
+        font-size: $size_medium;
+
+        @include from_md(){
+            font-size: $size_large;
+        }
+    }
+
+    .info-wrapper {
+        display: flex;
+        flex-direction: column;
+        text-align: right;
+
+        span {
+            font-family: $font_quicksand;
+            font-size: $size_regular;
+
+            @include from_md(){
+                font-size: $size_medium;
+            }
+        }
+    }
+
+    img {
+        width: 100%;
+        position: absolute;
+        top: 50%;
+        left: 0;
+
+        @include from_lg(){
+            top: 20%;
+        }
+    }
+}
