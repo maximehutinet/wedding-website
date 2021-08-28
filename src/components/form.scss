@@ -9,15 +9,23 @@
   align-items: center;
   margin-bottom: 2rem;
 
+  form {
+    width: 100%;
+
+    @include from_md() {
+      width: auto;
+    }
+  }
+
   .text-input {
     border-radius: 15px;
-    height: 1.5rem;
+    height: 2rem;
     border: solid 1px #8080805c;
     padding: 0 0.5rem;
     font-size: 1rem;
     font-family: $font_quicksand;
     font-weight: $font_quicksand_medium;
-    margin-bottom: 1rem;;
+    margin-bottom: 0.5rem;
   }
 
   .text-input:not(:first-of-type) {
@@ -36,8 +44,17 @@
     font-size: 1.2rem;
   }
 
-  .checkboxes-wrapper {
-    margin: 1rem 0;
+  label.activity-title {
+    font-weight: $font_quicksand_bold;
+  }
+
+  .activity-section {
+    margin-bottom: 1rem;
+
+    div {
+      display: flex;
+      align-items: center;
+    }
 
     input {
       margin-right: 0.5rem;

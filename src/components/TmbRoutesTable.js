@@ -74,7 +74,7 @@ function TmbRoutesTable() {
                                 </div>
                             </TableCell>
                             <TableCell>{row.distance + 'km'}</TableCell>
-                            <TableCell>{row.elevation + '+'}</TableCell>
+                            <TableCell>{'+' + row.elevation + 'm'}</TableCell>
                         </TableRow>
                     ))}
                 </TableBody>

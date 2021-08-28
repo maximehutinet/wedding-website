@@ -23,13 +23,20 @@
     "title": "Intéressé ?",
     "form": {
       "name": "Nom",
-      "interested": "Je suis intéressé pour",
-      "coming_wedding": "Venir au mariage",
-      "hiking_tmb": "Faire le TMB",
-      "hiking_part_tmb": "Faire une partie du TMB",
-      "not_coming": "Je ne pourrais pas venir au mariage",
+      "wedding_radio_button": {
+        "title": "Mariage",
+        "yes": "Carrément ! Compte sur moi.",
+        "maybe": "Ça a l'air cool mais faut que je réfléchisse.",
+        "no": "Arg, les Alpes c'est pas la porte à côté... peut être pas :'-("
+      },
+      "tmb_radio_button": {
+        "title": "Rando",
+        "yes": "Je veux faire le TMB complet! Lâche la bête!",
+        "maybe": "Y'a un des bus entre les différentes étapes nan ? (Oui :))",
+        "no": "Je vous ferais coucou depuis le téléphérique."
+      },
       "send": "Envoyer"
     },
-    "infos": "*on enverra les invitations pour le mariage au Printemps 2022 mais commence déjà à planifier :)"
+    "infos": "Les invitations officielles avec plus d'infos vont être envoyées au Printemps 2022, mais on veut commencer à préparer."
   }
 }

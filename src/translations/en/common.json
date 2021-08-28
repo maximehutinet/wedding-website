@@ -23,13 +23,20 @@
     "title": "Interested?",
     "form": {
       "name": "Name",
-      "interested": "I'm interested in",
-      "coming_wedding": "Coming to the wedding",
-      "hiking_tmb": "Hiking the TMB",
-      "hiking_part_tmb": "Hiking part of the TMB",
-      "not_coming": "I won't be able to come to the wedding",
+      "wedding_radio_button": {
+        "title": "Wedding",
+        "yes": "Definitely! Count me in.",
+        "maybe": "Sounds fun but I'll need to wait and see.",
+        "no": "The Alps are really far away... probably not :'-("
+      },
+      "tmb_radio_button": {
+        "title": "Hiking",
+        "yes": "I want to hike the full TMB! Release the beast!",
+        "maybe": "There's buses between the various points...right? (Yes.)",
+        "no": "I'll wave at you from the gondola."
+      },
       "send": "Send"
     },
-    "infos": "*official wedding RSVP will come spring 2022 but we want to get a head start on planning"
+    "infos": "The official invite with further information will come in Spring 2022, but we want to get a head start on planning."
   }
 }

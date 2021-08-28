@@ -4,7 +4,7 @@
 
 .rsvp-wrapper {
   position: relative;
-  height: 130vh;
+  height: 180vh;
   @include full_page();
 
   h2 {
@@ -31,11 +31,16 @@
   }
 
   .content {
+    padding: 0 3rem;
     font-size: $size_small;
 
     p {
       text-align: center;
-      padding: 0 1rem;
+      margin: 0;
+      font-family: $font_quicksand;
+      font-weight: $font_quicksand_medium;
+      font-size: 1.2rem;
+      padding-bottom: 2rem;
     }
   }
 }

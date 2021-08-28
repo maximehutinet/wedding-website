@@ -10,8 +10,8 @@ function Rsvp() {
         <div className="rsvp-wrapper">
             <div className="content">
                 <h2>{t('rsvp.title')}</h2>
-                <Form/>
                 <p>{t('rsvp.infos')}</p>
+                <Form/>
             </div>
             <img alt="trees" src={treesImg}/>
         </div>

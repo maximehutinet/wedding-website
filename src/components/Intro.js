@@ -17,7 +17,9 @@ function Intro() {
                 <span>{t('save_the_date.married')}</span>
                 <img alt="flower" src={flowerImg}/>
             </div>
-            <span className="dates-location">{t('save_the_date.dates')}<br/>Les Rhodos, Col de Aravis - La Clusaz<br/>{t('save_the_date.alpes')}</span>
+            <span className="dates-location">{t('save_the_date.dates')}<br/>
+            <a className="rhodos-link" href="https://rhodos.fr/">Les Rhodos</a>, Col de Aravis - La Clusaz
+                <br/>{t('save_the_date.alpes')}</span>
         </div>
     )
 }

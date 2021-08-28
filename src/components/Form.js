@@ -13,23 +13,34 @@ function Form() {
                     <input className="text-input" type="text" name="name" placeholder={t('rsvp.form.name')} required/>
                     <input className="text-input" type="email" name="email" placeholder="Email" required/>
                 </div>
-                <label>{t('rsvp.form.interested')}</label>
-                <div className="checkboxes-wrapper">
+                <div className="activity-section">
+                    <label className="activity-title">{t('rsvp.form.wedding_radio_button.title')}</label>
                     <div>
-                        <input type="checkbox" name="ComingWedding" value="Coming to the wedding"/>
-                        <label>{t('rsvp.form.coming_wedding')}</label>
+                        <input type="radio" name="coming-to-wedding" value="Yes"/>
+                        <label>{t('rsvp.form.wedding_radio_button.yes')}</label>
                     </div>
                     <div>
-                        <input type="checkbox" name="NotComingWedding" value="Not coming to the wedding"/>
-                        <label>{t('rsvp.form.not_coming')}</label>
+                        <input type="radio" name="coming-to-wedding" value="Maybe"/>
+                        <label>{t('rsvp.form.wedding_radio_button.maybe')}</label>
                     </div>
                     <div>
-                        <input type="checkbox" name="TMB" value="Coming to TMB"/>
-                        <label>{t('rsvp.form.hiking_tmb')}</label>
+                        <input type="radio" name="coming-to-wedding" value="No"/>
+                        <label>{t('rsvp.form.wedding_radio_button.no')}</label>
+                    </div>
+                </div>
+                <div className="activity-section">
+                    <label className="activity-title">{t('rsvp.form.tmb_radio_button.title')}</label>
+                    <div>
+                        <input type="radio" name="coming-to-tmb" value="Yes"/>
+                        <label>{t('rsvp.form.tmb_radio_button.yes')}</label>
                     </div>
                     <div>
-                        <input type="checkbox" name="PartTMB" value="Coming to part of TMB"/>
-                        <label>{t('rsvp.form.hiking_part_tmb')}</label>
+                        <input type="radio" name="coming-to-tmb" value="Maybe"/>
+                        <label>{t('rsvp.form.tmb_radio_button.maybe')}</label>
+                    </div>
+                    <div>
+                        <input type="radio" name="coming-to-tmb" value="No"/>
+                        <label>{t('rsvp.form.tmb_radio_button.no')}</label>
                     </div>
                 </div>
                 <div className="submit-button-wrapper">
