@@ -16,15 +16,19 @@ function Form() {
                 <label>{t('rsvp.form.interested')}</label>
                 <div className="checkboxes-wrapper">
                     <div>
-                        <input type="checkbox" name="attendance" value="ComingWedding"/>
+                        <input type="checkbox" name="ComingWedding" value="Coming to the wedding"/>
                         <label>{t('rsvp.form.coming_wedding')}</label>
                     </div>
                     <div>
-                        <input type="checkbox" name="attendance" value="TMB"/>
+                        <input type="checkbox" name="NotComingWedding" value="Not coming to the wedding"/>
+                        <label>{t('rsvp.form.not_coming')}</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" name="TMB" value="Coming to TMB"/>
                         <label>{t('rsvp.form.hiking_tmb')}</label>
                     </div>
                     <div>
-                        <input type="checkbox" name="attendance" value="PartTMB"/>
+                        <input type="checkbox" name="PartTMB" value="Coming to part of TMB"/>
                         <label>{t('rsvp.form.hiking_part_tmb')}</label>
                     </div>
                 </div>
@@ -32,26 +36,6 @@ function Form() {
                     <Button type="submit" variant="contained" color="primary">{t('rsvp.form.send')}</Button>
                 </div>
             </form>
-
-
-            {/*<form name="contact" method="post">
-                <input type="hidden" name="form-name" value="contact" />
-                <p>
-                    <label htmlFor="name">Name</label> <br />
-                    <input type="text" id="name" name="name" required />
-                </p>
-                <p>
-                    <label htmlFor="email">Email</label> <br />
-                    <input type="email" id="email" name="email" required />
-                </p>
-                <p>
-                    <label htmlFor="message">Message</label> <br />
-                    <textarea id="message" name="message" required></textarea>
-                </p>
-                <p>
-                    <input type="submit" value="Submit message" />
-                </p>
-            </form>*/}
         </div>
     )
 }
