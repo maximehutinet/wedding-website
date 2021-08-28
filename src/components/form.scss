@@ -1,0 +1,53 @@
+@import "../_mixin.scss";
+@import "../_variables.scss";
+@import "../_fonts.scss";
+
+.form-wrapper {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 2rem;
+
+  .text-input {
+    border-radius: 15px;
+    height: 1.5rem;
+    border: solid 1px #8080805c;
+    padding: 0 0.5rem;
+    font-size: 1rem;
+    font-family: $font_quicksand;
+    font-weight: $font_quicksand_medium;
+    margin-bottom: 1rem;;
+  }
+
+  .text-input:not(:first-of-type) {
+    margin-top: 1rem;
+  }
+
+  .text-input-wrapper {
+    margin-bottom: 1rem;
+    display: flex;
+    flex-direction: column;
+  }
+
+  label {
+    font-family: $font_quicksand;
+    font-weight: $font_quicksand_medium;
+    font-size: 1.2rem;
+  }
+
+  .checkboxes-wrapper {
+    margin: 1rem 0;
+
+    input {
+      margin-right: 0.5rem;
+    }
+  }
+
+  .submit-button-wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+  }
+}

@@ -1,0 +1,42 @@
+@import "../_mixin.scss";
+@import "../_variables.scss";
+@import "../_fonts.scss";
+
+.rsvp-wrapper {
+  position: relative;
+  height: 130vh;
+  @include full_page();
+
+  h2 {
+    font-size: $size_large;
+    font-family: $font_rozha_one;
+    color: $dark_brown;
+    text-align: center;
+    margin: 0;
+    padding: 2.5rem 0;
+
+    @include from_md(){
+      font-size: $size_xlarge;
+    }
+  }
+
+  img {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .content {
+    font-size: $size_small;
+
+    p {
+      text-align: center;
+      padding: 0 1rem;
+    }
+  }
+}
+

@@ -18,5 +18,17 @@
     "table_header_start": "Départ",
     "table_header_finish": "Arrivée",
     "table_header_elevation": "Dénivelé +"
+  },
+  "rsvp": {
+    "title": "Intéressé ?",
+    "form": {
+      "name": "Nom",
+      "interested": "Je suis intéressé pour",
+      "coming_wedding": "Venir au mariage",
+      "hiking_tmb": "Faire le TMB",
+      "hiking_part_tmb": "Faire une partie du TMB",
+      "send": "Envoyer"
+    },
+    "infos": "*on enverra les invitations pour le mariage au Printemps 2022 mais commence déjà à planifier :)"
   }
 }

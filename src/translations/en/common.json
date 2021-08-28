@@ -18,5 +18,17 @@
     "table_header_start": "Start",
     "table_header_finish": "Finish",
     "table_header_elevation": "Elevation"
+  },
+  "rsvp": {
+    "title": "Interested?",
+    "form": {
+      "name": "Name",
+      "interested": "I'm interested in",
+      "coming_wedding": "Coming to the wedding",
+      "hiking_tmb": "Hiking the TMB",
+      "hiking_part_tmb": "Hiking part of the TMB",
+      "send": "Send"
+    },
+    "infos": "*official wedding RSVP will come spring 2022 but we want to get a head start on planning"
   }
 }

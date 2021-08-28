@@ -8,6 +8,7 @@ import FullWidthImage from "./components/FullWidthImage";
 import tmbImage from './img/header_image.jpg'
 import Map from "./components/Map";
 import TmbRoutesTable from "./components/TmbRoutesTable";
+import Rsvp from "./components/RSVP";
 
 function App() {
   return (
@@ -15,12 +16,11 @@ function App() {
         <Nav/>
         <HeaderImage/>
         <Intro/>
-        <FullWidthImage
-            image={tmbImage}
-        />
+        <FullWidthImage image={tmbImage}/>
         <IntroTMB/>
         <Map/>
         <TmbRoutesTable/>
+        <Rsvp/>
     </div>
   );
 }
