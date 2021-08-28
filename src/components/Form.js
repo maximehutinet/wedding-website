@@ -1,14 +1,17 @@
 import React from "react";
 import './form.scss'
+import {useTranslation} from "react-i18next";
+import Button from "@material-ui/core/Button";
 
 function Form() {
-    //const {t} = useTranslation('common');
+    const {t} = useTranslation('common');
     return (
         <div className="form-wrapper">
-            {/*<form name="contact" method="POST" data-netlify="true">
+            <form name="rsvp" method="post">
+                <input type="hidden" name="form-name" value="rsvp" />
                 <div className="text-input-wrapper">
-                    <input className="text-input" type="text" name="name" placeholder={t('rsvp.form.name')}/>
-                    <input className="text-input" type="email" name="email" placeholder="Email"/>
+                    <input className="text-input" type="text" name="name" placeholder={t('rsvp.form.name')} required/>
+                    <input className="text-input" type="email" name="email" placeholder="Email" required/>
                 </div>
                 <label>{t('rsvp.form.interested')}</label>
                 <div className="checkboxes-wrapper">
@@ -28,8 +31,10 @@ function Form() {
                 <div className="submit-button-wrapper">
                     <Button type="submit" variant="contained" color="primary">{t('rsvp.form.send')}</Button>
                 </div>
-            </form>*/}
-            <form name="contact" method="post">
+            </form>
+
+
+            {/*<form name="contact" method="post">
                 <input type="hidden" name="form-name" value="contact" />
                 <p>
                     <label htmlFor="name">Name</label> <br />
@@ -46,7 +51,7 @@ function Form() {
                 <p>
                     <input type="submit" value="Submit message" />
                 </p>
-            </form>
+            </form>*/}
         </div>
     )
 }

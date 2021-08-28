@@ -27,11 +27,14 @@
     <title>Sarah & Max's Wedding 2022</title>
   </head>
   <body>
-    <form name="contact" netlify netlify-honeypot="bot-field" hidden>
+    <form name="rsvp" netlify netlify-honeypot="bot-field" hidden>
       <input type="text"  name="name">
       <input type="email" name="email">
-      <textarea name="message"></textarea>
+      <input type="checkbox" name="attendance" value="ComingWedding"/>
+      <input type="checkbox" name="attendance" value="TMB"/>
+      <input type="checkbox" name="attendance" value="PartTMB"/>
     </form>
+
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
     <!--
