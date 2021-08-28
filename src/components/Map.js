@@ -11,7 +11,7 @@ function Map() {
         <div className="map-section">
             <h2>{t('map_table_tmb.title')}</h2>
             <div className="map-wrapper">
-                <iframe width="1120" height="800" frameBorder="0" src="https://fatmap.com/guidebooks/50380/tour-du-mont-blanc-sarah-and-max-wedding-2022"></iframe>
+                <iframe title="map" width="1120" height="800" frameBorder="0" src="https://fatmap.com/guidebooks/50380/tour-du-mont-blanc-sarah-and-max-wedding-2022"/>
             </div>
             <div className="buttons-wrapper">
                 {currentLanguage === 'en' && <Button variant="outlined" color="primary" target="_blank" href="https://www.amazon.com/Trekking-Tour-Mont-Blanc-guidebook-ebook/dp/B08B8CPMC7">Trekking guide</Button> }
