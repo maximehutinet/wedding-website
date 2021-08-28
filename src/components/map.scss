@@ -1,3 +1,7 @@
+@import "../_mixin.scss";
+@import "../_variables.scss";
+@import "../_fonts.scss";
+
 .map-wrapper {
     display: flex;
     justify-content: center;
@@ -9,5 +13,37 @@
         display: flex;
         justify-content: center;
         margin: 2rem 0;
+    }
+}
+
+.map-section {
+    h2 {
+        font-size: $size_large;
+        font-family: $font_rozha_one;
+        color: $dark_brown;
+        text-align: center;
+        margin: 4rem 0;
+
+        @include from_md(){
+            font-size: $size_xlarge;
+        }
+    }
+    .buttons-wrapper {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+
+        a {
+            margin: 1rem 0;
+        }
+
+        @include from_md(){
+            flex-direction: row;
+
+            a {
+                margin: 0 1rem;
+            }
+        }
     }
 }

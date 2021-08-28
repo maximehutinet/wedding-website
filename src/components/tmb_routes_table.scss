@@ -1,0 +1,18 @@
+table {
+  tbody tr:hover {
+    background-color: #a52a2a1a;
+  }
+}
+
+.MuiPaper-root {
+  margin: 3rem 0;
+}
+
+.destination-wrapper {
+  display: flex;
+  align-items: center;
+
+  img {
+    padding-right: 0.5rem;
+  }
+}

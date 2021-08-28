@@ -11,5 +11,12 @@
     "dates": "August 26 - September 5, 2022",
     "distance_duration": "170 kilometers over 11 days",
     "location": "The French, Swiss and Italian Alps"
+  },
+  "map_table_tmb": {
+    "title": "Hike as much or as little as you want !",
+    "table_header_day": "Day",
+    "table_header_start": "Start",
+    "table_header_finish": "Finish",
+    "table_header_elevation": "Elevation"
   }
 }

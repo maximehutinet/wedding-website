@@ -6,6 +6,8 @@ import Intro from "./components/Intro";
 import IntroTMB from "./components/IntroTMB";
 import FullWidthImage from "./components/FullWidthImage";
 import tmbImage from './img/header_image.jpg'
+import Map from "./components/Map";
+import TmbRoutesTable from "./components/TmbRoutesTable";
 
 function App() {
   return (
@@ -17,7 +19,8 @@ function App() {
             image={tmbImage}
         />
         <IntroTMB/>
-        {/*<Map/>*/}
+        <Map/>
+        <TmbRoutesTable/>
     </div>
   );
 }
