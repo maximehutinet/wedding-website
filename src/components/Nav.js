@@ -6,6 +6,7 @@ import frFlag from '../icons/france.svg'
 import i18next from "i18next";
 
 function Nav() {
+    i18next.cloneInstance()
     const {i18n} = useTranslation('common');
     const currentLanguage = i18next.language
     return <div className="language-wrapper">

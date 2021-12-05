@@ -32,7 +32,7 @@
       "tmb_radio_button": {
         "title": "Rando",
         "yes": "Je veux faire le TMB complet! Lâche la bête!",
-        "maybe": "Y'a un des bus entre les différentes étapes nan ? (Oui :))",
+        "maybe": "Y'a des bus entre les différentes étapes nan ? (Oui :))",
         "no": "Je vous ferais coucou depuis le téléphérique."
       },
       "send": "Envoyer"

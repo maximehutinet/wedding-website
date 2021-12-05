@@ -5,6 +5,10 @@
 .rsvp-wrapper {
   position: relative;
   height: 180vh;
+
+  @include from_md() {
+    height: 140vh;
+  }
   @include full_page();
 
   h2 {

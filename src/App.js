@@ -9,8 +9,10 @@ import tmbImage from './img/header_image.jpg'
 import Map from "./components/Map";
 import TmbRoutesTable from "./components/TmbRoutesTable";
 import Rsvp from "./components/RSVP";
+import ReactGA from "react-ga"
 
 function App() {
+    ReactGA.initialize("G-315SWY6D2Q");
   return (
     <div className="app">
         <Nav/>
