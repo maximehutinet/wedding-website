@@ -25,7 +25,7 @@ function WeddingPage() {
                     <p>We will provide transportation between La Clusaz and the venue on the day of the wedding.</p>
                 </div>
                 <div className="getting-there-map-wrapper">
-                    <iframe src="https://www.google.com/maps/d/embed?mid=1HLesdGdloGS7EE3yr11BU18vuAPlr7RV&ehbc=2E312F" width="640" height="480"/>
+                    <iframe title="Wedding map" src="https://www.google.com/maps/d/embed?mid=1HLesdGdloGS7EE3yr11BU18vuAPlr7RV&ehbc=2E312F" width="640" height="480"/>
                 </div>
             </section>
 
