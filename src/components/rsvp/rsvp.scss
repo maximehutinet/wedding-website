@@ -1,6 +1,7 @@
-@import "../_mixin.scss";
-@import "../_variables.scss";
-@import "../_fonts.scss";
+@import "src/mixin";
+@import "src/variables";
+@import "src/fonts";
+@import "src/common";
 
 .rsvp-wrapper {
   position: relative;
@@ -10,19 +11,6 @@
     height: 140vh;
   }
   @include full_page();
-
-  h2 {
-    font-size: $size_large;
-    font-family: $font_rozha_one;
-    color: $dark_brown;
-    text-align: center;
-    margin: 0;
-    padding: 2.5rem 0;
-
-    @include from_md(){
-      font-size: $size_xlarge;
-    }
-  }
 
   img {
     width: 100%;
@@ -35,7 +23,8 @@
   }
 
   .content {
-    padding: 0 3rem;
+    @include content_with_padding();
+
     font-size: $size_small;
 
     p {

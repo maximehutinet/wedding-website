@@ -1,33 +1,28 @@
-@import "../_mixin.scss";
-@import "../_variables.scss";
-@import "../_fonts.scss";
+@import "src/mixin";
+@import "src/variables";
+@import "src/fonts";
+@import "src/common";
 
 .map-wrapper {
     display: flex;
     justify-content: center;
-    margin: 2rem -3rem;
+    margin-left: -6rem;
+    margin-right: -6rem;
+    margin-bottom: 2rem;
 }
 
-@media (min-width: 768px) {
+@include from_md() {
     .map-wrapper {
         display: flex;
         justify-content: center;
-        margin: 2rem 0;
+        margin-left: 0;
+        margin-right: 0;
     }
 }
 
 .map-section {
-    h2 {
-        font-size: $size_large;
-        font-family: $font_rozha_one;
-        color: $dark_brown;
-        text-align: center;
-        margin: 4rem 0;
+    @include content_with_padding();
 
-        @include from_md(){
-            font-size: $size_xlarge;
-        }
-    }
     .buttons-wrapper {
         width: 100%;
         display: flex;

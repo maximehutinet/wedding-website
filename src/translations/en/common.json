@@ -4,7 +4,8 @@
     "finally_married": "Are finally getting",
     "married": "married",
     "dates": "Thursday, September 8, 2022",
-    "alpes": "French Alpes"
+    "alpes": "French Alpes",
+    "important-info-wedding": "Important information for wedding"
   },
   "hike_the_tmb": {
     "title": "Come Hike with us!",
@@ -38,5 +39,32 @@
       "send": "Send"
     },
     "infos": "The official invite with further information will come in Spring 2022, but we want to get a head start on planning."
+  },
+  "tmb-page": {
+    "title": "What gear should you bring ?",
+    "gear-recommended-title-all": "Gear recommended for every participant :",
+    "rain-jacket": "Rain jacket (ideally GoreTex)",
+    "rain-pants": "Rain pants",
+    "puff-jacket": "Puff jacket",
+    "hiking-pants": "Hiking pants",
+    "mid-layer": "Mid-layer x1",
+    "gloves": "Gloves",
+    "hat": "Hat",
+    "sunglasses": "Sunglasses",
+    "sunscreen": "Sun screen",
+    "hiking-poles": "Hiking poles",
+    "headlamps": "Headlamps",
+    "safety-blanket": "Safety blanket",
+    "shoes": "Hiking/trail running shoes",
+    "liner": "Sleeping bag liner",
+    "gear-recommended-title-camper": "Extra gear recommended for campers :",
+    "tent": "Tent (to discuss to minimize the number of tents)",
+    "sleeping-page": "Sleeping pad (ideally a air mattress)",
+    "sleeping-bag": "Sleeping bag (ideally confort temp 0deg Celsius, or below)",
+    "trash-bag": "Trash bags (to put your stuff if it rains)",
+    "spoon": "Spoon",
+    "knife": "Knife",
+    "stove": "Stove & Gas (to discuss, we should be able to share)",
+    "recommended-hiking-bag": "Recommended hiking bag size :"
   }
 }

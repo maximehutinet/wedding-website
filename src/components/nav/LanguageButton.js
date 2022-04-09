@@ -1,11 +1,11 @@
 import {useTranslation} from "react-i18next";
 import React from "react";
 import './nav.scss'
-import usFlag from '../icons/us.svg'
-import frFlag from '../icons/france.svg'
+import usFlag from '../../icons/us.svg'
+import frFlag from '../../icons/france.svg'
 import i18next from "i18next";
 
-function Nav() {
+function LanguageButton() {
     i18next.cloneInstance()
     const {i18n} = useTranslation('common');
     const currentLanguage = i18next.language
@@ -19,4 +19,4 @@ function Nav() {
     </div>
 }
 
-export default Nav;
+export default LanguageButton;

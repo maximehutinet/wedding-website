@@ -1,6 +1,6 @@
-@import "../_mixin.scss";
-@import "../_variables.scss";
-@import "../_fonts.scss";
+@import "src/mixin";
+@import "src/variables";
+@import "src/fonts";
 
 .form-wrapper {
   display: flex;

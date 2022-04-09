@@ -1,0 +1,55 @@
+@import "src/mixin";
+@import "src/variables";
+@import "src/fonts";
+
+.wedding-page {
+  .full_width_wrapper {
+    height: 60vh;
+  }
+
+  #getting-there {
+    @include full_page_content_with_background($light_gray);
+
+    .getting-there-map-wrapper {
+      display: flex;
+      justify-content: center;
+      @include full_page();
+
+      @include from_md() {
+        margin: initial;
+      }
+    }
+
+    .getting-there-infos-wrapper {
+      margin-bottom: 3rem;
+    }
+  }
+
+  #where-to-stay {
+    @include full_page_content_with_background($light_blue);
+
+    > div {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 2rem;
+      justify-content: center;
+
+      @include from_md() {
+        flex-direction: row;
+      }
+
+      p {
+        margin: 0;
+      }
+
+      img {
+        max-width: 15rem;
+      }
+    }
+  }
+
+  #wedding-program {
+    @include content_with_padding();
+  }
+}

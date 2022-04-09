@@ -1,10 +1,10 @@
-@import "../_mixin.scss";
-@import "../_variables.scss";
-@import "../_fonts.scss";
+@import "src/mixin";
+@import "src/variables";
+@import "src/fonts";
 
 .intro-wrapper {
     text-align: center;
-    @include full_page_content($light_gray);
+    @include full_page_content_with_background($light_gray);
 
     .names {
         padding-bottom: 1rem;
@@ -75,5 +75,24 @@
 
     .rhodos-link {
         color: $brown;
+    }
+
+    .wedding-info-btn {
+        margin-top: 4rem;
+        margin-bottom: 2rem;
+
+        a {
+            text-decoration: none;
+            padding: 0.75rem;
+            background-color: #c05da3;
+            color: white;
+            border-radius: 4px;
+
+            &:hover {
+                background-color: white;
+                color: #c05da3;
+                border: 1px solid #c05da3
+            }
+        }
     }
 }

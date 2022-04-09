@@ -1,9 +1,13 @@
 @import "variables.scss";
 
-@mixin full_page_content($backgroudColor) {
+@mixin full_page_content_with_background($backgroudColor) {
   margin: 0 -3rem;
   padding: 2.5rem 3rem;
   background-color: $backgroudColor;
+}
+
+@mixin content_with_padding() {
+  padding: 2.5rem 3rem;
 }
 
 @mixin full_page() {

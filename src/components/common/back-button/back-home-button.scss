@@ -1,0 +1,17 @@
+@import "src/mixin";
+@import "src/variables";
+@import "src/fonts";
+
+.back-home-btn-wrapper {
+  position: absolute;
+  top: 1.5rem;
+  left: 1rem;
+
+  a {
+    text-decoration: none;
+    color: $white;
+    font-family: $font_parisienne;
+    font-size: $size_medium;
+    font-weight: bold;
+  }
+}

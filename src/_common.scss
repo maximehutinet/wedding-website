@@ -1,0 +1,12 @@
+h2 {
+  font-size: $size_large;
+  font-family: $font_rozha_one;
+  color: $dark_brown;
+  text-align: center;
+  margin: 0;
+  padding-bottom: 2.5rem;
+
+  @include from_md(){
+    font-size: $size_xlarge;
+  }
+}

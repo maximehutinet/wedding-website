@@ -1,8 +1,8 @@
 import {useTranslation} from "react-i18next";
 import React from "react";
 import './rsvp.scss'
-import Form from "./Form";
-import treesImg from '../img/form_background.jpg'
+import Form from "../pages/home/components/form/Form";
+import treesImg from '../../img/form_background.jpg'
 
 function Rsvp() {
     const {t} = useTranslation('common');

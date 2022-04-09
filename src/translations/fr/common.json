@@ -4,7 +4,8 @@
     "finally_married": "Vont finalement se",
     "married": "marier",
     "dates": "Jeudi 8 Septembre 2022",
-    "alpes": ""
+    "alpes": "",
+    "important-info-wedding": "Infos importantes pour le mariage"
   },
   "hike_the_tmb": {
     "title": "Viens marcher avec nous !",
@@ -38,5 +39,32 @@
       "send": "Envoyer"
     },
     "infos": "Les invitations officielles avec plus d'infos vont être envoyées au Printemps 2022, mais on veut commencer à préparer."
+  },
+  "tmb-page": {
+    "title": "Quel matos je dois prendre ?",
+    "gear-recommended-title-all": "Matos recommandé pour tout le monde :",
+    "rain-jacket": "Veste de pluie (de préférence GoreTex)",
+    "rain-pants": "Pantalon de pluie",
+    "puff-jacket": "Doudoune",
+    "hiking-pants": "Pantalon de rando",
+    "mid-layer": "Sous-vêtement technique x1",
+    "gloves": "Gants",
+    "hat": "Bonnet",
+    "sunglasses": "Lunettes de soleil",
+    "sunscreen": "Crême solaire",
+    "hiking-poles": "Bâtons",
+    "headlamps": "Lampe frontale",
+    "safety-blanket": "Couverture de survie",
+    "shoes": "Chaussure de rando/course à pied",
+    "liner": "Sac à viande",
+    "gear-recommended-title-camper": "Matos en plus recommandé pour les campers :",
+    "tent": "Tente (à discuter pour minimiser le nombre de tente)",
+    "sleeping-page": "Matelas de sol (de préférence à air)",
+    "sleeping-bag": "Sac de couchage (de préférence avec température de confort 0deg Celsius, ou moins)",
+    "trash-bag": "Sac poubelle (pour mettre les affaires dedans si il pleut)",
+    "spoon": "Cuillère",
+    "knife": "Couteau",
+    "stove": "Réchaud & gazStove & Gas (à discuter, on devrait pouvoir partager)",
+    "recommended-hiking-bag": "Taille de sac à dos recommandé :"
   }
 }

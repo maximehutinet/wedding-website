@@ -1,32 +1,26 @@
-@import "../_mixin.scss";
-@import "../_variables.scss";
-@import "../_fonts.scss";
+@import "src/mixin";
+@import "src/variables";
+@import "src/fonts";
+@import "src/common";
 
 .intro-tmb-wrapper {
     text-align: center;
     position: relative;
     height: 500px;
     overflow: hidden;
-    @include full_page_content($light_blue);
+    @include full_page_content_with_background($light_blue);
 
     @include from_md(){
         height: 95vh;
         padding: 2.5rem 10rem;
     }
 
-    h1 {
-        font-size: $size_large;
-        font-family: $font_rozha_one;
-        color: $dark_brown;
-        margin-top: 0;
+    h2 {
         text-align: right;
-
-        @include from_md(){
-            font-size: $size_xlarge;
-        }
+        padding: 0;
     }
 
-    h2 {
+    .tmb-title {
         text-align: right;
         font-family: $font_parisienne;
         color: $dark_brown;
@@ -41,6 +35,8 @@
         display: flex;
         flex-direction: column;
         text-align: right;
+        position: relative;
+        z-index: 1;
 
         span {
             font-family: $font_quicksand;
@@ -48,6 +44,24 @@
 
             @include from_md(){
                 font-size: $size_medium;
+            }
+        }
+
+        .tmb-button-wrapper {
+            margin-top: 3rem;
+
+            a {
+                text-decoration: none;
+                padding: 0.75rem;
+                background-color: transparent;
+                color: $dark_brown;
+                border-radius: 4px;
+                border: 1px solid $dark_brown;
+
+                &:hover {
+                    background-color: $dark_brown;
+                    color: white;
+                }
             }
         }
     }

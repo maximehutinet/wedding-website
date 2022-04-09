@@ -1,7 +1,8 @@
 import {useTranslation} from "react-i18next";
 import './intro.scss'
 import React from "react";
-import flowerImg from '../img/flower.png'
+import flowerImg from '../../../../../img/flower.png'
+import {Link} from "react-router-dom";
 
 function Intro() {
     const {t} = useTranslation('common');
@@ -20,6 +21,9 @@ function Intro() {
             <span className="dates-location">{t('save_the_date.dates')}<br/>
             <a className="rhodos-link" href="https://rhodos.fr/">Les Rhodos</a>, Col de Aravis - La Clusaz
                 <br/>{t('save_the_date.alpes')}</span>
+            <div className="wedding-info-btn">
+                <Link to="/wedding">{t('save_the_date.important-info-wedding')}</Link>
+            </div>
         </div>
     )
 }

@@ -1,30 +1,25 @@
 import './App.scss';
 import React from "react";
-import Nav from './components/Nav.js';
-import HeaderImage from './components/HeaderImage.js';
-import Intro from "./components/Intro";
-import IntroTMB from "./components/IntroTMB";
-import FullWidthImage from "./components/FullWidthImage";
-import tmbImage from './img/header_image.jpg'
-import Map from "./components/Map";
-import TmbRoutesTable from "./components/TmbRoutesTable";
-import Rsvp from "./components/RSVP";
+
 import ReactGA from "react-ga"
+import {BrowserRouter, Route, Routes} from "react-router-dom";
+import HomePage from "./components/pages/home/home-page";
+import WeddingPage from "./components/pages/wedding/wedding-page";
+import TmbPage from "./components/pages/tmb/tmb-page";
 
 function App() {
     ReactGA.initialize("G-315SWY6D2Q");
-  return (
-    <div className="app">
-        <Nav/>
-        <HeaderImage/>
-        <Intro/>
-        <FullWidthImage image={tmbImage}/>
-        <IntroTMB/>
-        <Map/>
-        <TmbRoutesTable/>
-        <Rsvp/>
-    </div>
-  );
+    return (
+        <div className="app">
+            <BrowserRouter>
+                <Routes>
+                    <Route path="/" element={<HomePage/>} />
+                    <Route path="/wedding" element={<WeddingPage/>} />
+                    <Route path="/tmb" element={<TmbPage/>} />
+                </Routes>
+            </BrowserRouter>
+        </div>
+    );
 }
 
 export default App;
