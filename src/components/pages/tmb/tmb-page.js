@@ -51,8 +51,8 @@ function TmbPage() {
 
                 <p>{t('tmb-page.recommended-hiking-bag')}</p>
                 <ul>
-                    <li>Refuger : 50-60L</li>
-                    <li>Camper: 70-90L</li>
+                    <li>Refuger : 30-40L</li>
+                    <li>Camper : 70-90L</li>
                 </ul>
             </section>
         </div>

@@ -15,7 +15,7 @@ function IntroTMB() {
                 <span>{t('hike_the_tmb.distance_duration')}</span>
                 <span>{t('hike_the_tmb.location')}</span>
                 <div className="tmb-button-wrapper">
-                    <Link to="/tmb">Learn more</Link>
+                    <Link to="/tmb">{t('hike_the_tmb.button')}</Link>
                 </div>
             </div>
 
