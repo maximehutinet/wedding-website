@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Parisienne&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Festive&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Rozha+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
 
 $font_quicksand:                      'Quicksand', sans-serif;
 $font_quicksand_light:                300;
@@ -13,14 +13,20 @@ $font_quicksand_bold:                 700;
 $font_parisienne:                     'Parisienne', cursive;
 $font_festive:                        'Festive', cursive;
 
-$font_rozha_one:                      'Rozha One', serif;
+$font_montserrat:                     'Montserrat', serif;
+$font_montserrat_light:               300;
+$font_montserrat_regular:             400;
+$font_montserrat_medium :             500;
+$font_montserrat_semi_bold:           600;
+$font_montserrat_bold:                700;
 
 $size_xsmall:                         0.5rem;
 $size_small:                          0.7rem;
 $size_regular:                        1rem;
+$size_smedium:                        1.2rem;
 $size_medium:                         1.5rem;
 $size_large:                          2rem;
-$size_xlarge:                         3rem;
+$size_xlarge:                         2.5rem;
 $size_xxlarge:                        4rem;
 $size_xxxlarge:                       17rem;
 

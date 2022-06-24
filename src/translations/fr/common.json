@@ -1,17 +1,44 @@
 {
-  "save_the_date": {
-    "and": "et",
-    "finally_married": "Vont finalement se",
-    "married": "marier",
-    "dates": "Jeudi 8 Septembre 2022",
-    "alpes": "",
-    "important-info-wedding": "Plus d'infos"
+  "intro": {
+    "title": "C'est le moment !",
+    "wedding_coming_up": "Notre mariage approche et on est super content.",
+    "rsvp_btn": "Réserve",
+    "time_party": "C'est le moment de faire la fête, c'est le jour du mariage !",
+    "party_over": "La fête est finie :("
+  },
+  "practical_infos": {
+    "where_do_we_meet": "Du coup, on se retrouve où ?",
+    "in_front_of": "En face de la",
+    "meeting_date_time": "Jeudi 8 Septembre à 15:30",
+    "shuttle_info_title": "Profites de l'open bar, une navette te ramènera où tu dois aller",
+    "shuttle_info_content_1": "Une navette prendra tout le monde au centre de La Clusaz à 15h30, t'amèneras à la cérémonie (16h dans un champ quelque part) et ensuite à la salle de mariage (17h aux Rhodos)",
+    "shuttle_info_content_2": "Entre 23h et 3h du matin, la navette fera des voyages réguliers entre Les Rhodos et La Clusaz.",
+    "parking_title": "Attends mais ... je me gare où ?",
+    "parking_content_1": "Le plus simple c'est de laisser ta voiture au",
+    "parking_content_2": "Ça prend deux minutes en marchant pour aller au point de rencontre de la navette et c'est gratuit.",
+    "plan_title": "Trop cool! Du coup, c'est quoi le plan ?",
+    "plan_time_pickup": "15:30",
+    "plan_pickup": "Navette de La Clusaz",
+    "plan_time_ceremony": "16:00",
+    "plan_ceremony": "Cérémonie",
+    "plan_time_shuttle_venue": "16:45",
+    "plan_shuttle_venue": "Navette vers la salle de mariage",
+    "plan_time_vin": "17:00",
+    "plan_vin": "Vin d'honneur",
+    "plan_time_dinner": "19:00",
+    "plan_dinner": "Dîner",
+    "plan_time_party": "21:30",
+    "plan_party": "C'est la fête",
+    "plan_time_snacks": "00:00",
+    "plan_snacks": "Snacks",
+    "plan_time_party_over": "03:00 am",
+    "plan_party_over": "La fête est finie :("
   },
   "hike_the_tmb": {
     "title": "Viens marcher avec nous !",
     "dates": "Du 26 Août au 5 Septembre 2022",
     "distance_duration": "170 kilomètres sur 11 jours",
-    "location": "Alpes Françaises, Suisses et Italienne",
+    "location": "Alpes Françaises, Suisses et Italiennes",
     "button": "Plus d'infos"
   },
   "map_table_tmb": {
@@ -21,29 +48,9 @@
     "table_header_finish": "Arrivée",
     "table_header_elevation": "Dénivelé +"
   },
-  "rsvp": {
-    "title": "Intéressé ?",
-    "form": {
-      "name": "Nom",
-      "wedding_radio_button": {
-        "title": "Mariage",
-        "yes": "Carrément ! Compte sur moi.",
-        "maybe": "Ça a l'air cool mais faut que je réfléchisse.",
-        "no": "Arg, les Alpes c'est pas la porte à côté... peut être pas :'-("
-      },
-      "tmb_radio_button": {
-        "title": "Rando",
-        "yes": "Je veux faire le TMB complet! Lâche la bête!",
-        "maybe": "Y'a des bus entre les différentes étapes nan ? (Oui :))",
-        "no": "Je vous ferais coucou depuis le téléphérique."
-      },
-      "send": "Envoyer"
-    },
-    "infos": "Les invitations officielles avec plus d'infos vont être envoyées au Printemps 2022, mais on veut commencer à préparer."
-  },
   "tmb-page": {
     "title": "Quel matos je dois prendre ?",
-    "gear-recommended-title-all": "Matos recommandé pour tout le monde :",
+    "gear-recommended-title-all": "Matos recommandé pour tout le monde",
     "rain-jacket": "Veste de pluie (de préférence GoreTex)",
     "rain-pants": "Pantalon de pluie",
     "puff-jacket": "Doudoune",
@@ -58,14 +65,15 @@
     "safety-blanket": "Couverture de survie",
     "shoes": "Chaussure de rando/course à pied",
     "liner": "Sac à viande",
-    "gear-recommended-title-camper": "Matos en plus recommandé pour les campers :",
+    "gear-recommended-title-camper": "Matos en plus recommandé pour les campeurs",
     "tent": "Tente (à discuter pour minimiser le nombre de tente)",
     "sleeping-page": "Matelas de sol (de préférence à air)",
-    "sleeping-bag": "Sac de couchage (de préférence avec température de confort 0deg Celsius, ou moins)",
+    "sleeping-bag": "Sac de couchage (de préférence avec température de confort 0deg, ou moins)",
     "trash-bag": "Sac poubelle (pour mettre les affaires dedans si il pleut)",
     "spoon": "Cuillère",
     "knife": "Couteau",
-    "stove": "Réchaud & gazStove & Gas (à discuter, on devrait pouvoir partager)",
-    "recommended-hiking-bag": "Taille de sac à dos recommandé :"
+    "stove": "Réchaud & gaz (à discuter, on devrait pouvoir partager)",
+    "recommended-hiking-bag-title": "Taille de sac à dos recommandé",
+    "recommended-hiking-bag": "Première chose, t'as besoin d'un sac à dos. Pour les campeurs, on recommande 70-90L. Pour les autres, 30-40L devrait suffire."
   }
 }

@@ -2,97 +2,42 @@
 @import "src/variables";
 @import "src/fonts";
 
-.intro-wrapper {
+#intro-wrapper {
     text-align: center;
     @include full_page_content_with_background($light_gray);
 
-    .names {
-        padding-bottom: 1rem;
+    #wedding-coming-up {
         display: flex;
-        justify-content: center;
         flex-direction: column;
-
-        span {
-            font-size: $size_large;
-            font-family: $font_quicksand;
-            font-weight: $font_quicksand_bold;
-            color: $brown;
-
-            @include from_md(){
-                font-size: $size_xlarge;
-            }
-        }
-
-        span:nth-child(2) {
-            font-size: $size_medium;
-        }
+        align-items: center;
+        gap: 2rem;
     }
 
-    .finally-married {
+    span {
+        font-size: $size_medium;
+        font-weight: $font_montserrat_light;
+    }
+
+    #time-left-before-wedding {
         font-size: $size_large;
-        font-family: $font_parisienne;
-        color: $brown;
+        font-weight: $font_montserrat_bold;
+    }
 
-        @include from_md(){
-            font-size: $size_xlarge;
+    #rsvp-btn {
+        text-decoration: none;
+        padding: 0.75rem;
+        background-color: #c05da3;
+        color: white;
+        border-radius: 4px;
+        border: 1px solid transparent;
+        font-weight: $font_montserrat_semi_bold;
+
+        &:hover {
+            background-color: white;
+            color: #c05da3;
+            border: 1px solid #c05da3
         }
     }
 
-    .img-wrapper {
-        position: relative;
-        margin: 2rem 0;
-        span {
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-            font-family: $font_festive;
-            color: $light_brown;
-            font-size: 25vw;
 
-            @include from_md(){
-                font-size: 15vw;
-            }
-        }
-
-        img {
-            width: 100%;
-
-            @include from_md(){
-                width: 50%;
-            }
-        }
-    }
-
-    .dates-location {
-        text-transform: uppercase;
-        color: $brown;
-
-        @include from_md(){
-            font-size: $size-medium;
-        }
-    }
-
-    .rhodos-link {
-        color: $brown;
-    }
-
-    .wedding-info-btn {
-        margin-top: 4rem;
-        margin-bottom: 2rem;
-
-        a {
-            text-decoration: none;
-            padding: 0.75rem;
-            background-color: #c05da3;
-            color: white;
-            border-radius: 4px;
-
-            &:hover {
-                background-color: white;
-                color: #c05da3;
-                border: 1px solid #c05da3
-            }
-        }
-    }
 }

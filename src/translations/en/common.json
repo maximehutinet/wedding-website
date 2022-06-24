@@ -1,11 +1,38 @@
 {
-  "save_the_date": {
-    "and": "and",
-    "finally_married": "Are finally getting",
-    "married": "married",
-    "dates": "Thursday, September 8, 2022",
-    "alpes": "French Alpes",
-    "important-info-wedding": "More info"
+  "intro": {
+    "title": "It's time!",
+    "wedding_coming_up": "Our wedding is coming up and we are super excited.",
+    "rsvp_btn": "RSVP",
+    "time_party": "Time to party, this is wedding day!",
+    "party_over": "Party is over :("
+  },
+  "practical_infos": {
+    "where_do_we_meet": "So where do we meet?",
+    "in_front_of": "In front of the",
+    "meeting_date_time": "Thursday September 8 at 3:30pm",
+    "shuttle_info_title": "Enjoy the open bar; a shuttle will take you where you need to go",
+    "shuttle_info_content_1": "A shuttle will pick-up everyone up from La Clusaz city center at 3:30pm and bring you to our ceremony (4pm in a field somewhere) and then reception (5pm at Les Rhodos.)",
+    "shuttle_info_content_2": "Between 11pm and 3am the shuttle will make regular trips between Les Rhodos and La Clusaz.",
+    "parking_title": "Wait but ... where do I park?",
+    "parking_content_1": "The easiest option is to leave your car at the",
+    "parking_content_2": "It's a 2min walk to get to the bus meeting point and it's free.",
+    "plan_title": "Yay! So what's the plan?",
+    "plan_time_pickup": "3:30 pm",
+    "plan_pickup": "Bus pick up in La Clusaz",
+    "plan_time_ceremony": "4:00 pm",
+    "plan_ceremony": "Ceremony",
+    "plan_time_shuttle_venue": "4:45 pm",
+    "plan_shuttle_venue": "Shuttle bus to the venue",
+    "plan_time_vin": "5:00 pm",
+    "plan_vin": "Vin d'honneur (Drinks, snacks)",
+    "plan_time_dinner": "7:00 pm",
+    "plan_dinner": "Dinner",
+    "plan_time_party": "9:30 pm",
+    "plan_party": "Party time",
+    "plan_time_snacks": "00:00 am",
+    "plan_snacks": "Snacks",
+    "plan_time_party_over": "03:00 am",
+    "plan_party_over": "Party is over :("
   },
   "hike_the_tmb": {
     "title": "Come Hike with us!",
@@ -21,29 +48,9 @@
     "table_header_finish": "Finish",
     "table_header_elevation": "Elevation"
   },
-  "rsvp": {
-    "title": "Interested?",
-    "form": {
-      "name": "Name",
-      "wedding_radio_button": {
-        "title": "Wedding",
-        "yes": "Definitely! Count me in.",
-        "maybe": "Sounds fun but I'll need to wait and see.",
-        "no": "The Alps are really far away... probably not :'-("
-      },
-      "tmb_radio_button": {
-        "title": "Hiking",
-        "yes": "I want to hike the full TMB! Release the beast!",
-        "maybe": "There's buses between the various points...right? (Yes.)",
-        "no": "I'll wave at you from the gondola."
-      },
-      "send": "Send"
-    },
-    "infos": "The official invite with further information will come in Spring 2022, but we want to get a head start on planning."
-  },
   "tmb-page": {
     "title": "What gear should you bring ?",
-    "gear-recommended-title-all": "Gear recommended for every participant :",
+    "gear-recommended-title-all": "Gear recommended for everyone",
     "rain-jacket": "Rain jacket (ideally GoreTex)",
     "rain-pants": "Rain pants",
     "puff-jacket": "Puff jacket",
@@ -58,7 +65,7 @@
     "safety-blanket": "Safety blanket",
     "shoes": "Hiking/trail running shoes",
     "liner": "Sleeping bag liner",
-    "gear-recommended-title-camper": "Extra gear recommended for campers :",
+    "gear-recommended-title-camper": "Extra gear recommended for campers",
     "tent": "Tent (to discuss to minimize the number of tents)",
     "sleeping-page": "Sleeping pad (ideally a air mattress)",
     "sleeping-bag": "Sleeping bag (ideally confort temp 0deg Celsius, or below)",
@@ -66,6 +73,6 @@
     "spoon": "Spoon",
     "knife": "Knife",
     "stove": "Stove & Gas (to discuss, we should be able to share)",
-    "recommended-hiking-bag": "Recommended hiking bag size :"
+    "recommended-hiking-bag": "First thing first, you need a backpack. For the people camping we recommend 70-90L. For refuger, 30-40L should be plenty."
   }
 }

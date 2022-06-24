@@ -1,11 +1,11 @@
-import LanguageButton from "../../nav/LanguageButton";
+import LanguageButton from "../../nav/language-button";
 import HeaderImage from "./components/header/HeaderImage";
-import Intro from "./components/intro/Intro";
+import Intro from "./components/intro/intro";
 import FullWidthImage from "../../common/full-width-image/FullWidthImage";
 import tmbImage from "../../../img/header_image.jpg";
 import IntroTMB from "./components/intro-tmb/IntroTMB";
-import Rsvp from "../../rsvp/RSVP";
 import React from "react";
+import PracticalInfos from "./components/practical-infos/practical-infos";
 
 function HomePage() {
     return (
@@ -13,9 +13,9 @@ function HomePage() {
             <LanguageButton/>
             <HeaderImage/>
             <Intro/>
+            <PracticalInfos/>
             <FullWidthImage image={tmbImage}/>
             <IntroTMB/>
-            <Rsvp/>
         </div>
     );
 }
