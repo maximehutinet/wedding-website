@@ -20,7 +20,7 @@ const useStyles = makeStyles({
 });
 
 const rows = [
-    createData('08.26.2022', '26.08.2022', 1, 'Les Houches', true,'Refuge de Miage', true,12, 1366),
+    createData('08.26.2022', '26.08.2022', 1, 'Les Houches', true,'Refuge de Miage', false,12, 1366),
     createData('08.27.2022', '27.08.2022', 2, 'Refuge de Miage', true,'Refuge de la Croix du Bonhomme', false,18, 1500),
     createData('08.28.2022', '28.08.2022', 3, 'Refuge de la Croix du Bonhomme', false,'Refugio Elisabetta', false,15, 966),
     createData('08.29.2022', '29.08.2022',4, 'Refugio Elisabetta', false,'Rifugio Maison Vieille', false,10, 580),
