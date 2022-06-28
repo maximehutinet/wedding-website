@@ -8,6 +8,8 @@ import TimelineConnector from '@mui/lab/TimelineConnector';
 import TimelineContent from '@mui/lab/TimelineContent';
 import TimelineDot from '@mui/lab/TimelineDot';
 import TimelineOppositeContent from '@mui/lab/TimelineOppositeContent';
+import FullWidthImage from "../../../../common/full-width-image/FullWidthImage";
+import giftImage from "../../../../../img/gift.jpg";
 
 function PracticalInfos() {
     const {t} = useTranslation('common');
@@ -134,6 +136,79 @@ function PracticalInfos() {
                         <TimelineContent>{t('practical_infos.plan_party_over')}</TimelineContent>
                     </TimelineItem>
                 </Timeline>
+            </div>
+            <hr/>
+            <div id="registry-wrapper">
+                <h2>{t('practical_infos.registry_title')}</h2>
+                <div>
+                    <p>{t('practical_infos.registry_content')}</p>
+                    <a className="btn" href="http://www.leetchi.com/c/sarah-maxs-wedding" target="_blank" rel="noreferrer">{t('practical_infos.registry_btn')}</a>
+                </div>
+            </div>
+            <FullWidthImage image={giftImage}/>
+            <div id="welcome-drink-wrapper">
+                <h2>{t('practical_infos.welcome_drink_title')}</h2>
+                <p>{t('practical_infos.welcome_drink_content')} <strong>{t('practical_infos.welcome_drink_time')}</strong> {t('practical_infos.welcome_drink_our_place')} <br/><br/><a href="https://goo.gl/maps/z8x8CFZ22iySfYEi9" target="_blank" rel="noreferrer">639 Route du Col de la Croix Fry, 74220 La Clusaz</a> </p>
+            </div>
+            <hr/>
+            <div id="plan-coming-days">
+                <h2>{t('practical_infos.plan_coming_days_title')}</h2>
+                <Timeline position="right">
+                    <TimelineItem>
+                        <TimelineOppositeContent color="text.secondary">
+                            Sept. 7
+                        </TimelineOppositeContent>
+                        <TimelineSeparator>
+                            <TimelineDot variant="outlined" color="primary"/>
+                            <TimelineConnector />
+                        </TimelineSeparator>
+                        <TimelineContent>Welcome drink</TimelineContent>
+                    </TimelineItem>
+                    <TimelineItem>
+                        <TimelineOppositeContent color="text.secondary">
+                            Sept. 8
+                        </TimelineOppositeContent>
+                        <TimelineSeparator>
+                            <TimelineDot variant="outlined" color="secondary"/>
+                            <TimelineConnector />
+                        </TimelineSeparator>
+                        <TimelineContent>{t('practical_infos.plan_coming_days_wedding_day')}</TimelineContent>
+                    </TimelineItem>
+                    <TimelineItem>
+                        <TimelineOppositeContent color="text.secondary">
+                            Sept. 9
+                        </TimelineOppositeContent>
+                        <TimelineSeparator>
+                            <TimelineDot/>
+                            <TimelineConnector />
+                        </TimelineSeparator>
+                        <TimelineContent>{t('practical_infos.plan_coming_days_rest_day')}</TimelineContent>
+                    </TimelineItem>
+                    <TimelineItem>
+                        <TimelineOppositeContent color="text.secondary">
+                            Sept. 10
+                        </TimelineOppositeContent>
+                        <TimelineSeparator>
+                            <TimelineDot variant="outlined" color="success"/>
+                            <TimelineConnector />
+                        </TimelineSeparator>
+                        <TimelineContent>{t('practical_infos.plan_coming_days_mtb_day')}</TimelineContent>
+                    </TimelineItem>
+                    <TimelineItem>
+                        <TimelineOppositeContent color="text.secondary">
+                            Sept. 11
+                        </TimelineOppositeContent>
+                        <TimelineSeparator>
+                            <TimelineDot variant="outlined" color="warning"/>
+                        </TimelineSeparator>
+                        <TimelineContent>{t('practical_infos.plan_coming_days_white_water_day')}</TimelineContent>
+                    </TimelineItem>
+                </Timeline>
+            </div>
+            <hr/>
+            <div id="la-clusaz-infos-wrapper">
+                <h2>{t('practical_infos.la_clusaz_infos_title')}</h2>
+                <p>{t('practical_infos.la_clusaz_infos_content')} <a href="https://en.laclusaz.com/events-and-activities.html" target="_blank" rel="noreferrer">{t('practical_infos.la_clusaz_infos_link')}</a></p>
             </div>
         </div>
     )

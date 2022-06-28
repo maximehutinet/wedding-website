@@ -32,7 +32,22 @@
     "plan_time_snacks": "00:00",
     "plan_snacks": "Snacks",
     "plan_time_party_over": "03:00 am",
-    "plan_party_over": "La fête est finie :("
+    "plan_party_over": "La fête est finie :(",
+    "registry_title": "Trop hâte! Vous avez une liste de mariage au fait ?",
+    "registry_content": "Eh bien, t'as bien fais de demander, en effet !",
+    "registry_btn": "Notre liste de mariage",
+    "welcome_drink_title": "Viens boire un coup avec nous la veille !",
+    "welcome_drink_content": "Tous le monde est invité à boire un verre le soir du 7 Septembre à partir de",
+    "welcome_drink_our_place": "chez nous",
+    "welcome_drink_time": "20h30",
+    "plan_coming_days_title": "Des plans pour après le mariage ?",
+    "plan_coming_days_wedding_day": "Jour du mariage",
+    "plan_coming_days_rest_day": "Jour de repos / Moment pour se retrouver",
+    "plan_coming_days_mtb_day": "Canyoning (autour d'Annecy) / VTT (La Clusaz)",
+    "plan_coming_days_white_water_day": "Parc d'eau vive (près de Lyon, France)",
+    "la_clusaz_infos_title": "Vous êtes fou, je fais pas de vélo moi !",
+    "la_clusaz_infos_content": "T'inquiète pas, tu peux trouver plus d'infos de truc cool à faire dans le coin sur",
+    "la_clusaz_infos_link": "le site de tourisme de La Clusaz"
   },
   "hike_the_tmb": {
     "title": "Viens marcher avec nous !",

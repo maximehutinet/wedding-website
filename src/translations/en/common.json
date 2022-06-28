@@ -32,7 +32,22 @@
     "plan_time_snacks": "00:00 am",
     "plan_snacks": "Snacks",
     "plan_time_party_over": "03:00 am",
-    "plan_party_over": "Party is over :("
+    "plan_party_over": "Party is over :(",
+    "registry_title": "So excited! Do you guys have a registry btw?",
+    "registry_content": "Well, I'm glad you asked, we actually do!",
+    "registry_btn": "Our registry",
+    "welcome_drink_title": "Come have a drink with us the night before!",
+    "welcome_drink_content": "Everyone is invited for a welcome drink the night of the 7th from",
+    "welcome_drink_our_place": "at our place",
+    "welcome_drink_time": "8:30pm",
+    "plan_coming_days_title": "Any plans after the wedding?",
+    "plan_coming_days_wedding_day": "Wedding day",
+    "plan_coming_days_rest_day": "Rest day / time to hangout",
+    "plan_coming_days_mtb_day": "Canyoneering (around Annecy) / Mountain biking (La Clusaz)",
+    "plan_coming_days_white_water_day": "White water park (close to Lyon, France)",
+    "la_clusaz_infos_title": "You guys are crazy, I can't bike!",
+    "la_clusaz_infos_content": "Don't worry, you can find more info about fun things to do in the area on the",
+    "la_clusaz_infos_link": "La Clusaz Tourisme website"
   },
   "hike_the_tmb": {
     "title": "Come Hike with us!",

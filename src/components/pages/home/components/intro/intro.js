@@ -18,7 +18,7 @@ function Intro() {
                 <div id="wedding-coming-up">
                     <span>{t('intro.wedding_coming_up')}</span>
                     <span id="time-left-before-wedding">{dayDesignation}-{timeBeforeWedding}</span>
-                    <a id="rsvp-btn" href="https://docs.google.com/forms/d/e/1FAIpQLScvwwnOKSGUkM85Je8UuhOFFLzxADq2GLB7lnIWLl4ry-IG5Q/viewform">{t('intro.rsvp_btn')}</a>
+                    <a className="btn" href="https://docs.google.com/forms/d/e/1FAIpQLScvwwnOKSGUkM85Je8UuhOFFLzxADq2GLB7lnIWLl4ry-IG5Q/viewform">{t('intro.rsvp_btn')}</a>
                 </div>
             }
             {timeBeforeWedding === 0 &&

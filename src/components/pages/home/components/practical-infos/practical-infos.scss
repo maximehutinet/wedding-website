@@ -6,12 +6,16 @@
 #shuttle-infos-wrapper,
 #where-do-we-meet-wrapper,
 #where-can-i-park-wrapper,
-#plan-wrapper {
+#plan-wrapper,
+#welcome-drink-wrapper,
+#plan-coming-days,
+#registry-wrapper,
+#la-clusaz-infos-wrapper {
   @include content_with_padding();
 }
 
-#shuttle-infos-wrapper {
-
+a {
+  color: $black;
 }
 
 #where-do-we-meet-wrapper {
@@ -24,10 +28,6 @@
 
     @include from_md() {
       font-size: $size_smedium;
-    }
-
-    a {
-      color: $black;
     }
   }
 }
@@ -54,5 +54,21 @@
     @include from_lg() {
       max-width: 60rem;
     }
+  }
+}
+
+#registry-wrapper {
+  > div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+  }
+}
+
+#welcome-drink-wrapper,
+#la-clusaz-infos-wrapper {
+  p {
+    text-align: center;
   }
 }
