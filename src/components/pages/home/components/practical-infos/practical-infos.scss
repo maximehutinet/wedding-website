@@ -9,6 +9,7 @@
 #plan-wrapper,
 #welcome-drink-wrapper,
 #plan-coming-days,
+#dress-code-wrapper,
 #registry-wrapper,
 #la-clusaz-infos-wrapper {
   @include content_with_padding();
@@ -54,6 +55,30 @@ a {
     @include from_lg() {
       max-width: 60rem;
     }
+  }
+}
+
+#dress-code-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  > div {
+    margin-top: 2rem;
+  }
+
+  img {
+    max-width: 60rem;
+    width: 100%;
+  }
+
+  label {
+    font-weight: $font_montserrat_semi_bold;
+  }
+
+  label:not(:first-child) {
+    display: block;
+    margin-top: 2rem;
   }
 }
 
