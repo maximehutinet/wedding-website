@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useEffect} from "react";
 import FullWidthImage from "../../common/full-width-image/FullWidthImage";
 import groupImage from "../../../img/group-pic.jpeg";
 import LanguageButton from "../../nav/language-button";
@@ -11,6 +11,9 @@ import {Checkbox, FormControlLabel, FormGroup} from "@mui/material";
 
 function TmbPage() {
     const {t} = useTranslation('common');
+    useEffect(() => {
+        window.scrollTo(0, 0)
+    }, [])
     return (
         <div className="tmb-page">
             <FullWidthImage image={groupImage}/>
