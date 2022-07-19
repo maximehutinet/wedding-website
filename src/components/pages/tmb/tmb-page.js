@@ -21,6 +21,34 @@ function TmbPage() {
             <BackHomeButton/>
             <Map/>
             <TmbRoutesTable/>
+            <section id="come-hike-for-one-day">
+                <h2>{t('tmb-page.come-hike-for-one-day-title')}</h2>
+                <p>
+                    {t('tmb-page.come-hike-for-one-day-text1')}
+                </p>
+                <p>
+                    {t('tmb-page.come-hike-for-one-day-text2')}
+                </p>
+                <ul>
+                    <li>{t('tmb-page.come-hike-for-one-day-meeting-point')}</li>
+                    <li>{t('tmb-page.come-hike-for-one-day-meeting-time')}</li>
+                    <li>{t('tmb-page.come-hike-for-one-day-distance-brevent')}</li>
+                    <li>{t('tmb-page.come-hike-for-one-day-distance-houches')}</li>
+                </ul>
+                <div className="map-wrapper">
+                    <iframe title="map last day tmb"
+                            src="https://www.google.com/maps/d/embed?mid=12sJwfCTTyclNRRUsU5TdgQS5kJgh6F8&hl=fr&ehbc=2E312F"
+                            width="640" height="480"></iframe>
+                </div>
+                <div className="btn-wrapper">
+                    <a className="btn"
+                       href="https://www.chamonix.com/activites/informations-pratiques-remontees-mecaniques/telecabine-de-la-flegere"
+                       target="_blank" rel="noreferrer">{t('tmb-page.come-hike-for-one-day-btn')}</a>
+                </div>
+            </section>
+
+            <hr/>
+
             <section id="gear">
                 <h2>{t('tmb-page.title')}</h2>
                 <h3>{t('tmb-page.recommended-hiking-bag-title')}</h3>
@@ -56,21 +84,11 @@ function TmbPage() {
                 </FormGroup>
 
                 <hr/>
-                <h2>Food & water</h2>
+                <h2>{t('tmb-page.food-water-title')}</h2>
                 <ul>
-                    <li>
-                        Campers, considers bringing 1 day of food with you. We will pass by villages as the two maps
-                        show
-                        above but it can happen that we won't find food. Make sure also to bring breakfast !
-                    </li>
-                    <li>
-                        For the refuger, you'll have breakfast and dinner at the huts. However, bring some snacks and
-                        potentially food for at least one lunch in case we don't find food for launch on the way.
-                    </li>
-                    <li>
-                        There are a bunch of stream of water along the way. We usually drink straight from them but if
-                        you wanna be more cautious, we recommend to filter it as there could be some herd upstream.
-                    </li>
+                    <li>{t('tmb-page.food-water-text1')}</li>
+                    <li>{t('tmb-page.food-water-text2')}</li>
+                    <li>{t('tmb-page.food-water-text3')}</li>
                 </ul>
                 <p></p>
                 <p></p>

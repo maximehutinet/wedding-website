@@ -79,6 +79,14 @@
     "table_header_elevation": "Dénivelé +"
   },
   "tmb-page": {
+    "come-hike-for-one-day-title": "Pas trop le temps ? Viens juste le dernier jour !",
+    "come-hike-for-one-day-text1": "Le 5 Septembre, la team TMB va prendre le café au refuge La Flégère qui est accessible via le téléphérique de la Flégère à Chamonix.",
+    "come-hike-for-one-day-text2": "Prends le téléphérique et retrouve-nous entre 11h-11h30 au refuge de la Flégère. Ensuite marche jusqu'au resto du Brévent (et reprend le téléphérique jusqu'à Chamonix) ou continue jusqu'à la ligne d'arrivée aux Houches.",
+    "come-hike-for-one-day-meeting-point": "Point de rencontre : Refuge La Flégère",
+    "come-hike-for-one-day-meeting-time": "Heure de rencontre : 11h - 11h30",
+    "come-hike-for-one-day-distance-brevent": "Distance jusqu'au Brévent: 5.8km, 320m D+",
+    "come-hike-for-one-day-distance-houches": "Distance jusqu'aux Houches: 16km, 810m D+ / 1690m D-",
+    "come-hike-for-one-day-btn": "Infos téléphérique",
     "title": "Quel matos je dois prendre ?",
     "gear-recommended-title-all": "Matos recommandé pour tout le monde",
     "rain-jacket": "Veste de pluie (de préférence GoreTex)",
@@ -104,6 +112,10 @@
     "knife": "Couteau",
     "stove": "Réchaud & gaz (à discuter, on devrait pouvoir partager)",
     "recommended-hiking-bag-title": "Taille de sac à dos recommandé",
-    "recommended-hiking-bag": "Première chose, t'as besoin d'un sac à dos. Pour les campeurs, on recommande 70-90L. Pour les autres, 30-40L devrait suffire."
+    "recommended-hiking-bag": "Première chose, t'as besoin d'un sac à dos. Pour les campeurs, on recommande 70-90L. Pour les autres, 30-40L devrait suffire.",
+    "food-water-title": "Nourriture & eau",
+    "food-water-text1": "Campeurs : Apporte au moins 1-2 jours de nourriture (petit déjeuner, midi, dîner et snacks). On va passer régulièrement par des villages pour manger et se réapprovisionner (voir carte) mais c'est pas garantie que les magasins/restos soient toujours ouverts.",
+    "food-water-text2": "Campeur en refuge : Tu auras petit déjeuner et dîner dans les refuges. Par contre, prends des snacks avec toi et de la nourriture pour au moins un midi. (Il est possible d'avoir des déjeuners à emporter dans certains refuges)",
+    "food-water-text3": "Il y a des ruisseaux et fontaines sur le chemin. Tu peux boire directement des fontaines par contre on recommande de filtrer l'eau de rivière."
   }
 }

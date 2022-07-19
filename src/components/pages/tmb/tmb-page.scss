@@ -7,13 +7,21 @@
     color: black;
   }
 
+  #come-hike-for-one-day {
+    iframe {
+      border: none;
+    }
+
+    .map-wrapper {
+      margin-top: 3rem;
+    }
+  }
+
   #gear {
     margin-bottom: 3rem;
   }
 
   ul {
-    max-width: 60rem;
-
     li {
       margin: 1rem 0;
     }

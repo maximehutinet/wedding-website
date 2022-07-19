@@ -79,6 +79,14 @@
     "table_header_elevation": "Elevation"
   },
   "tmb-page": {
+    "come-hike-for-one-day-title": "Short on time? Hike just the last day!",
+    "come-hike-for-one-day-text1": "On 5 September Team TMB will have a coffee at Refuge La Flégère, which is accessible by the La Flégère gondola in Chamonix.",
+    "come-hike-for-one-day-text2": "Take the gondola and meet us between 11-11:30 at Refuge La Flégère. Then hike to the Brévent restaurant (and gondola back back down to Chamonix) or continue all the way to the finish line at Les Houches.",
+    "come-hike-for-one-day-meeting-point": "Meeting point: Refuge La Flégère",
+    "come-hike-for-one-day-meeting-time": "Meeting time: 11h - 11h30",
+    "come-hike-for-one-day-distance-brevent": "Distance to Brévent: 5.8km, 320 meter ascent",
+    "come-hike-for-one-day-distance-houches": "Distance to Les Houches: 16km, 810 meter ascent / 1690 meter descent",
+    "come-hike-for-one-day-btn": "Gondola infos",
     "title": "What gear should you bring ?",
     "gear-recommended-title-all": "Gear recommended for everyone",
     "rain-jacket": "Rain jacket (ideally GoreTex)",
@@ -104,6 +112,10 @@
     "knife": "Knife",
     "stove": "Stove & Gas (to discuss, we should be able to share)",
     "recommended-hiking-bag-title": "Recommended backpack size",
-    "recommended-hiking-bag": "First thing first, you need a backpack. For the people camping we recommend 70-90L. For refuger, 30-40L should be plenty."
+    "recommended-hiking-bag": "First thing first, you need a backpack. For the people camping we recommend 70-90L. For refuger, 30-40L should be plenty.",
+    "food-water-title": "Food & water",
+    "food-water-text1": "Tent campers: Bring at least 1-2 days of food (breakfast, lunch, dinner and snacks.) We will regularly pass villages to eat and re-stock (see map) but it's not guaranteed that shops/restaurants are always open.",
+    "food-water-text2": "Hut glampers: You'll have breakfast and dinner at the huts. However, bring some snacks and potentially food for at least one lunch. (It is possible to get bag lunches at some huts.)",
+    "food-water-text3": "There are streams and fountains along the way. You can drink straight from fountains but we recommend filtering river water."
   }
 }
