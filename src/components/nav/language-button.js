@@ -10,14 +10,20 @@ function LanguageButton() {
     const {i18n} = useTranslation('common');
     const currentLanguage = i18next.language
     return <div className="language-wrapper">
-        {currentLanguage === 'fr' && <button className="en" onClick={() => i18n.changeLanguage('en')}>
+        {currentLanguage === 'en' && <div>
             <img src={usFlag} alt="us flag"/>
-            <span>EN</span>
-        </button>}
-        {currentLanguage === 'en' && <button className="fr" onClick={() => i18n.changeLanguage('fr')}>
-            <img src={frFlag} alt="french flag"/>
-            <span>FR</span>
-        </button>}
+            <span className="active">EN</span>
+            <button onClick={() => i18n.changeLanguage('fr')}>
+                <span>FR</span>
+            </button>
+        </div>}
+        {currentLanguage === 'fr' && <div>
+            <img src={frFlag} alt="fr flag"/>
+            <span className="active">FR</span>
+            <button onClick={() => i18n.changeLanguage('en')}>
+                <span>EN</span>
+            </button>
+        </div>}
     </div>
 }
 
