@@ -1,0 +1,10 @@
+@import "src/fonts";
+
+#covid-warning {
+  text-align: center;
+  padding: 1rem;
+  background-color: red;
+  margin: 0 -3rem;
+  color: white;
+  font-weight: $font_montserrat_bold;
+}

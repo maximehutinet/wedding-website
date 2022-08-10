@@ -117,5 +117,8 @@
     "food-water-text1": "Tent campers: Bring at least 1-2 days of food (breakfast, lunch, dinner and snacks.) We will regularly pass villages to eat and re-stock (see map) but it's not guaranteed that shops/restaurants are always open.",
     "food-water-text2": "Hut glampers: You'll have breakfast and dinner at the huts. However, bring some snacks and potentially food for at least one lunch. (It is possible to get bag lunches at some huts.)",
     "food-water-text3": "There are streams and fountains along the way. You can drink straight from fountains but we recommend filtering river water."
+  },
+  "covid": {
+    "warning": "COVID : Please consider getting tested before coming to the wedding."
   }
 }

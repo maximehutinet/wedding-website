@@ -6,10 +6,12 @@ import tmbImage from "../../../img/header_image.jpg";
 import IntroTMB from "./components/intro-tmb/IntroTMB";
 import React from "react";
 import PracticalInfos from "./components/practical-infos/practical-infos";
+import CovidWarning from "../../common/covid-warning/covid-warning";
 
 function HomePage() {
     return (
         <div className="home-page">
+            <CovidWarning/>
             <LanguageButton/>
             <HeaderImage/>
             <Intro/>

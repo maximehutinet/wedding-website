@@ -117,5 +117,8 @@
     "food-water-text1": "Campeurs : Apporte au moins 1-2 jours de nourriture (petit déjeuner, midi, dîner et snacks). On va passer régulièrement par des villages pour manger et se réapprovisionner (voir carte) mais c'est pas garantie que les magasins/restos soient toujours ouverts.",
     "food-water-text2": "Campeur en refuge : Tu auras petit déjeuner et dîner dans les refuges. Par contre, prends des snacks avec toi et de la nourriture pour au moins un midi. (Il est possible d'avoir des déjeuners à emporter dans certains refuges)",
     "food-water-text3": "Il y a des ruisseaux et fontaines sur le chemin. Tu peux boire directement des fontaines par contre on recommande de filtrer l'eau de rivière."
+  },
+  "covid": {
+    "warning": "COVID : Merci de penser à te faire tester avant de venir au mariage."
   }
 }
