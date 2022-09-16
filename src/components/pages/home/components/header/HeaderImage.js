@@ -1,5 +1,5 @@
 import React from "react"
-import headerImage from '../../../../../img/its_time.jpg'
+import headerImage from '../../../../../img/wedding.jpg'
 import './header.scss'
 
 function HeaderImage() {
